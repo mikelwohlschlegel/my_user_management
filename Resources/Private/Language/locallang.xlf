@@ -295,6 +295,38 @@
             <trans-unit id="pagination.refresh" resname="pagination.refresh">
                 <source>Refresh</source>
             </trans-unit>
+            <!-- TYPO3 v13 beuser Filter.html select options: rendered under the MyUserManagement
+                 extension context, these short keys must resolve from this file (not EXT:beuser). -->
+            <trans-unit id="backendUser.list.filter.userType.all" resname="backendUser.list.filter.userType.all">
+                <source>All</source>
+            </trans-unit>
+            <trans-unit id="backendUser.list.filter.userType.admin" resname="backendUser.list.filter.userType.admin">
+                <source>Admin</source>
+            </trans-unit>
+            <trans-unit id="backendUser.list.filter.userType.normalUser" resname="backendUser.list.filter.userType.normalUser">
+                <source>Normal user</source>
+            </trans-unit>
+            <trans-unit id="backendUser.list.filter.status.all" resname="backendUser.list.filter.status.all">
+                <source>All</source>
+            </trans-unit>
+            <trans-unit id="backendUser.list.filter.status.enabled" resname="backendUser.list.filter.status.enabled">
+                <source>Enabled</source>
+            </trans-unit>
+            <trans-unit id="backendUser.list.filter.status.disabled" resname="backendUser.list.filter.status.disabled">
+                <source>Disabled</source>
+            </trans-unit>
+            <trans-unit id="backendUser.list.filter.loginState.all" resname="backendUser.list.filter.loginState.all">
+                <source>All</source>
+            </trans-unit>
+            <trans-unit id="backendUser.list.filter.loginState.loginBefore" resname="backendUser.list.filter.loginState.loginBefore">
+                <source>Logged in before</source>
+            </trans-unit>
+            <trans-unit id="backendUser.list.filter.loginState.never" resname="backendUser.list.filter.loginState.never">
+                <source>Never logged in</source>
+            </trans-unit>
+            <trans-unit id="filemount.infobox.noFilemountFound.message" resname="filemount.infobox.noFilemountFound.message">
+                <source>Please create a file mount and select its entry point.</source>
+            </trans-unit>
             <!-- Additional labels -->
             <trans-unit id="myUserManagement" resname="myUserManagement">
                 <source>User Administration</source>
